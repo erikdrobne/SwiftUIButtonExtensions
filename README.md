@@ -1,8 +1,9 @@
 # SwiftUIButtonExtensions
 A Collection of UIButton extensions.
 
-## verticalAlignImageAndTitle
-Vertical align UIButton image and title:
+
+## Vertical align UIButton image and title
+### verticalAlignImageAndTitle(padding: CGFloat = 5.0, isTitleUnderImage: Bool = true)
 ```
 let myButton = UIButton()
 myButton.setTitle("Button", for: .normal)
