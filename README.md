@@ -2,11 +2,11 @@
 A Collection of UIButton extensions.
 
 
-## Vertical align UIButton image and title
-```
+### Vertical align UIButton image and title
+```swift
 verticalAlignImageAndTitle(padding: CGFloat = 5.0, isTitleUnderImage: Bool = true)
 ```
-```
+```swift
 let myButton = UIButton()
 myButton.setTitle("Button", for: .normal)
 myButton.setImage(UIImage(named: "image_name"), for: .normal)
